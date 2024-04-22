@@ -16,7 +16,7 @@ void CheckFocusSessionState() {
     if (Windows::UI::Shell::FocusSessionManager::IsSupported()) {
         auto access = Windows::ApplicationModel::LimitedAccessFeatures::TryUnlockFeature(
                 L"com.microsoft.windows.focussessionmanager.1",
-                L"rIoGgkAp8W6/wkhP1J+Zsw==",
+                L"AkrVx6HPjWMONn0nE+3asA==",
                 L"bv3y43trt6crp has registered their use of com.microsoft.windows.focussessionmanager.1 with Microsoft and agrees to the terms of use."
         );
         if ((access.Status() == Windows::ApplicationModel::LimitedAccessFeatureStatus::Available) ||
